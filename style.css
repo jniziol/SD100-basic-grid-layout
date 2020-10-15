@@ -1,0 +1,87 @@
+body {
+  margin: 20px;
+  background: #e3e3e3;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+main {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.box {
+  background-color: #878686;
+  padding: 20px;
+  border-radius: 3px;
+  font-size: 25px;
+  text-align: center;
+}
+
+h1.box {
+  grid-column: 1 / -1;
+  background-color: initial;
+  margin: 0;
+  text-align: left;
+  font-size: 45px;
+}
+
+.one {
+  grid-column: auto / span 1;
+}
+
+.two {
+  grid-column: auto / span 2;
+}
+
+.three {
+  grid-column: auto / span 3;
+}
+
+.four {
+  grid-column: auto / span 4;
+}
+
+.five {
+  grid-column: auto / span 5;
+}
+
+.six {
+  grid-column: auto / span 6;
+}
+
+.seven {
+  grid-column: auto / span 7;
+}
+
+.eight {
+  grid-column: auto / span 8;
+}
+
+.ten {
+  grid-column: auto / span 10;
+}
+
+.eleven {
+  grid-column: auto / span 11;
+}
+
+.twelve {
+  grid-column: auto / span 12;
+}
+
+.fourtwo {
+  grid-column: auto / span 4;
+  grid-row: auto / span 2;
+}
+
+.fourthree {
+  grid-column: auto / span 4;
+  grid-row: auto / span 3;
+}
+
